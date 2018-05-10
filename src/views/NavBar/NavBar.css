@@ -1,0 +1,26 @@
+.NavBar-Wrapper {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.NavBar-Active {
+  color: #D4D4D4;
+  font-weight: lighter;
+  width: 440px;
+}
+
+.NavBar-Logo {
+  text-align: center;
+  font-family: 'Bebas';
+  color: #ED2726;
+  letter-spacing: 1.5px;
+  font-size: 2rem;
+}
+
+@media (max-width: 850px) {
+  .NavBar-Wrapper { padding: 1px; justify-content: center; }
+  .NavBar-Logo-Wrapper, .NavBar-Active { display: none; }
+}

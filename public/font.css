@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Bebas';
+  src: url('font/BEBAS.ttf');
+}
+
+.SearchBox-wrapper input[type="text"] {
+  background: url('icons/search_icon.png') no-repeat 6px 6px;
+  padding-left: 40px;
+}

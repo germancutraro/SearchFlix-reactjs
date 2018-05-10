@@ -1,0 +1,22 @@
+.Movie {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  margin: 3rem 3rem 1.5rem;
+}
+
+.Movie-Poster {
+  width: 230px;
+  height: 300px;
+}
+
+.Movie-Title {
+  padding-top: 15px;
+}
+
+.Movie-Year {
+  color: #525252;
+  padding-top: 5px;
+  font-weight: 400;
+}

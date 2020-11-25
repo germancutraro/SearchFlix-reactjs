@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import "./SearchBox.css";
 
 class SearchBox extends React.Component {
-  state = {inputValue: '', API_KEY: '651569d9'};
+  state = {inputValue: '', API_KEY: 'YOUR KEY HERE'};
 
   onChangeHandler = e => this.setState({ inputValue: e.target.value });
 
